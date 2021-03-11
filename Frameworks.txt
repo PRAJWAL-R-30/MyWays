@@ -1,0 +1,8 @@
+MERN Stack Project
+
+Client Side: ReactJs along with axios(API calling)
+
+Server Side: MONGO DB Atlas (Cloud Storage)
+             Express Js (Database Modelling)
+             NodeJs
+        
