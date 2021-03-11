@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+.signupForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    width: 186px;
+    height: 44px;
+    margin-bottom: 8px;
+    text-align: center;
+    font: normal normal normal 33px/44px Open Sans;
+    color: #333333;
+}
+
+.subTitle {
+    width: 190px;
+    height: 30px;
+    text-align: center;
+    font: normal normal normal 22px/30px Open Sans;
+    color: #212020;
+    margin-top: 0;
+}
+
+.nameInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    width: 336px;
+    height: 48px;
+    margin-bottom: 12px;
+}
+
+.name {
+    width: 150px;
+    padding: 0;
+    border-width: 1px;
+    border-color: rgba(112, 112, 112, 0.322);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.email, .password {
+    width: 326px;
+    height: 48px;
+    padding: 0;
+    border-width: 1px;
+    border-color: rgba(112, 112, 112, 0.322);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 12px;
+}
+
+.signupbutton {
+    margin: 7px;
+    width: 340px;
+    height: 48px;
+    border: 1px solid ; 
+    border-color: rgba(112, 112, 112, 0.247);
+    font: normal normal 600 22px/30px Open Sans;
+    border-radius: 5px;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #ffffff;
+    cursor: pointer;
+}

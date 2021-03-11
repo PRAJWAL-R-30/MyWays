@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+.Verifyform {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.OTPTitle {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font: normal normal 600 22px/30px Open Sans;
+}
+
+.OTPinput {
+    width: 320px;
+    height: 63px;
+    border: 1px solid #707070;
+    border-radius: 32px;
+    padding-left: 40px;
+    font: normal normal 600 22px/30px Open Sans;
+} 
+
+.description {
+    width: 275px;
+    height: 38px;
+    font: normal normal normal 14px/19px Open Sans;
+    text-align: center;
+}
+
+.VerifyButton {
+    width: 367px;
+    height: 57px;
+    background: #7ECB20 0% 0% no-repeat padding-box;
+    border-width: 0;
+    border-radius: 32px;
+    color: #ffffff;
+}
+
+input:focus {
+    outline-width: 0;
+}
